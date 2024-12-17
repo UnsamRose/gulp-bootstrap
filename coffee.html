@@ -60,11 +60,19 @@
         </div>
       </nav>
 
+      <!-- breadcrumb code -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb ps-4 pt-4">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Coffee</li>
+        </ol>
+      </nav>
+
     <!-- Product cards -->
       <container>
-        <div class="row">
+        <div class="row p-4">
             <!-- Card 1 -->
-            <div class="col">
+            <div class="col pb-4">
               <div class="card" style="width: 18rem;">
                 <img src="img/gulp-espresso-scoop.jpg" class="card-img-top" alt="gulp espresso scoop">
                 <div class="card-body">
@@ -72,27 +80,36 @@
                   <p class="card-text">
                     With our Columbian-Blended Espresso Beans, you can finally feel like a professional barista. Bright and clean with an intense burst of flavor, these full-bodied beans strike a perfect balance between the most delicate roasts and fruitful aromas.
                   </p>                </div>
-                <ul class="list-group list-group-flush">
+                
+                  <ul class="list-group list-group-flush">
                   <li class="list-group-item">
                     Flavor profile: Bourbon / cherry / milk chocolate
                   </li>
                   <li class="list-group-item">
                     Recommended brew method: Espresso machine 
                   </li>
-                  <li class="list-group-item">
-                    Size: 12 oz.: $20  ; 5 lb.: $90
 
-                  </li>
+                <!-- collapse -->
+                <p class="d-inline-flex gap-1">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Size pricing
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                    Size: 12 oz.: $20  ; 5 lb.: $90                  
+                  </div>
+                </div>
                 </ul>
+
                 <div class="card-body">
-                  <a href="columbian-espresso.html" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <a href="columbian-espresso.html" class="card-link">Product link</a>
                 </div>
               </div>
             </div>
 
             <!-- Card 2 -->
-            <div class="col">
+            <div class="col pb-4">
               <div class="card" style="width: 18rem;">
                 <img src="img/gulp-triple-blended.jpg" class="card-img-top" alt="gulp triple blended">
                 <div class="card-body">
@@ -108,19 +125,28 @@
                   <li class="list-group-item">
                     Recommended brew method: French press
                   </li>
-                  <li class="list-group-item">
-                    Size: 12 oz.: $18  ; 5 lb.: $85 
-                  </li>
+
+                <!-- collapse -->
+                <p class="d-inline-flex gap-1">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Size pricing
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                    Size:  12 oz.: $18  ; 5 lb.: $85            
+                  </div>
+                </div>
                 </ul>
+
                 <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <a href="https://uxuicurriculum.wixsite.com/gulproast" class="card-link">Card link</a>
                 </div>
               </div>
             </div>
             
             <!-- Card 3 -->
-            <div class="col">
+            <div class="col pb-4">
               <div class="card" style="width: 18rem;">
                 <img src="img/gulp-light-roast.jpg" class="card-img-top" alt="gulp light roast">
                 <div class="card-body">
@@ -136,13 +162,21 @@
                   <li class="list-group-item">
                     Recommended brew method: Aeropress
                   </li>
-                  <li class="list-group-item">
-                    Size: 12 oz.: $18 ; 5 lb.: $85                     
-                  </li>
+
+                <!-- collapse -->
+                <p class="d-inline-flex gap-1">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Size pricing
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                    Size:  12 oz.: $18  ; 5 lb.: $85            
+                  </div>
+                </div>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <a href="https://uxuicurriculum.wixsite.com/gulproast" class="card-link">Card link</a>
                 </div>
               </div>
             </div>
